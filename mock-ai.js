@@ -29,7 +29,7 @@ app.post("/ai/cooking/match", (req, res) => {
     return res.status(200).json({
       message: "Matching successful",
       data: [
-        { recipe_id: "6a1d2e30976fdec82ee9894c", match_percentage: Math.floor(Math.random() * 50) + 50 },
+        { recipe_id: "6a1d2e30976fdec82ee98868", match_percentage: Math.floor(Math.random() * 50) + 50 },
         { recipe_id: "6a1d2e30976fdec82ee9889f", match_percentage: Math.floor(Math.random() * 50) + 50 },
         { recipe_id: "6a1d2e30976fdec82ee988e1", match_percentage: Math.floor(Math.random() * 50) + 50 },
       ],
